@@ -31,6 +31,5 @@ export class NavComponent implements OnInit {
 
   logout(): void {
     localStorage.removeItem('token');
-    console.log('logged out');
   }
 }
