@@ -32,7 +32,7 @@ export class ErrorInterceptor implements HttpInterceptor {
             })
         );
     }
-}}
+}
  
 
 export const ErrorInterceptorProvider = {
